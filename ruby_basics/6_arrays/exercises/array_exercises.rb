@@ -49,6 +49,7 @@ end
 
 def empty_array?(array)
   # return true if the array is empty
+  array.length < 1 ? true : false
 end
 
 def reverse(array)
