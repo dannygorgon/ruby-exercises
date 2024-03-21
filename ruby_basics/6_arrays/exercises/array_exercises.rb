@@ -32,9 +32,9 @@ end
 
 def remove_first_three_elements(array)
   # Step 1: remove the first three elements
-
+  array.length < 3 ? [] : array[3..-1]
   # Step 2: return the array (because Step 1 returns the values of the elements removed)
-  array
+  
 end
 
 def array_concatenation(original, additional)
