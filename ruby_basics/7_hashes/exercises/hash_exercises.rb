@@ -25,7 +25,7 @@ end
 
 def remove_favorite_number(favorite_list)
   # Step 1: delete the number data
-
+  puts favorite_list.delete(:number)
   # Step 2: return the hash (because Step 1 returns the value of the number key)
   favorite_list
 end
