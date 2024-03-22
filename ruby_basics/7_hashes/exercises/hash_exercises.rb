@@ -11,6 +11,7 @@ def favorite_color(favorite_list)
 end
 
 def favorite_number(favorite_list)
+  favorite_list.fetch(:number, 42)
   # use #fetch to return the value of the number key or 42 if the key is not found
 end
 
